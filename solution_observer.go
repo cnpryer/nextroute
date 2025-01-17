@@ -62,9 +62,9 @@ type SolutionObserver interface {
 	OnEstimatedDeltaObjectiveScore(
 		estimate float64,
 	)
-	// OnBestMove is called when the solution is asked for it's best move.
+	// OnBestMove is called when the solution is asked for its best move.
 	OnBestMove(solution Solution)
-	// OnBestMoveFound is called when the solution has found it's best move.
+	// OnBestMoveFound is called when the solution has found its best move.
 	OnBestMoveFound(move SolutionMove)
 
 	// OnPlan is called when a move is going to be planned.

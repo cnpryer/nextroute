@@ -18,7 +18,7 @@ type SolveOperatorUnPlan interface {
 
 // NewSolveOperatorUnPlan creates a new SolveOperatorUnPlan.
 // SolveOperatorUnPlan is a solve-operator which un-plans planned plan-units.
-// It is used to remove planned plan-units. from the solution.
+// It is used to remove planned plan-units from the solution.
 // In each iteration of the solve run, the number of plan-units. to un-plan
 // is determined by the number of units. The number of units is a
 // solve-parameter which can be configured by the user. In each iteration, the

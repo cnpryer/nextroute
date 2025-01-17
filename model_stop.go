@@ -58,7 +58,7 @@ type ModelStop interface {
 	// is not part of a stops plan unit.
 	PlanStopsUnit() ModelPlanStopsUnit
 
-	// MeasureIndex returns the measure index of the invoking stop . This index
+	// MeasureIndex returns the measure index of the invoking stop. This index
 	// is not necessarily unique.
 	// This index is used by the model expression constructed by the factory
 	// NewMeasureByIndexExpression to calculate the value of the measure

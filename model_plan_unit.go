@@ -2,7 +2,7 @@
 
 package nextroute
 
-// ModelPlanUnit is a plan unit. It is a unit defining what should be planned .
+// ModelPlanUnit is a plan unit. It is a unit defining what should be planned.
 // For example, a unit can be a pickup and a delivery stop that are required to
 // be planned together on the same vehicle.
 type ModelPlanUnit interface {

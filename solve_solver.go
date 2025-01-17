@@ -20,7 +20,7 @@ type IntParameterOptions struct {
 	MinValue                 int  `json:"min_value"  usage:"min value of parameter"`
 	MaxValue                 int  `json:"max_value"  usage:"max value of parameter"`
 	SnapBackAfterImprovement bool `json:"snap_back_after_improvement"  usage:"snap back to start value after improvement of best solution"`
-	Zigzag                   bool `json:"zigzag"  usage:"zigzag between min and max value lik a jig saw"`
+	Zigzag                   bool `json:"zigzag"  usage:"zigzag between min and max value like a jig saw"`
 }
 
 // SolverOptions are the options for the solver and it's operators.
